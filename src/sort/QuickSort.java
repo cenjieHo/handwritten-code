@@ -37,7 +37,6 @@ public class QuickSort {
 		return j;
 	}
 	
-	
 	private static boolean less(Comparable a, Comparable b) {
 		return a.compareTo(b) < 0;
 	}
