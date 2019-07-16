@@ -7,7 +7,7 @@ public class InorderTree {
     	List<Integer> res = new ArrayList<>();
     	TreeNode node = root;
     	Stack<TreeNode> stack = new Stack<>();
-    	while(node != null && !stack.isEmpty()) {
+    	while(node != null || !stack.isEmpty()) {
     		while(node != null) {
     			stack.push(node);
     			node = node.left;
